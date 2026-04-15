@@ -1,0 +1,32 @@
+[project]
+name = "tapis-agent"
+version = "0.1.0"
+description = "Tapis Agent with MCP and Phoenix Tracing"
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.15"
+dependencies = [
+    "mcp>=0.1.0",
+    "tapipy>=3.0.0",
+    "arize-phoenix[evals] (>=14.2.1,<15.0.0)",
+    "openinference-instrumentation-openai>=0.1.44",
+    "opentelemetry-sdk>=1.20.0",
+    "openai>=1.0.0",
+    "opentelemetry-api (>=1.40.0,<2.0.0)",
+    "python-dotenv (>=1.2.2,<2.0.0)",
+    "langchain-community (>=0.4.1,<0.5.0)",
+    "neo4j (>=6.1.0,<7.0.0)",
+    "pypdf (>=6.9.2,<7.0.0)",
+    "langchain-openai (>=1.1.12,<2.0.0)",
+    "arize-phoenix-evals (>=3.0.0,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false

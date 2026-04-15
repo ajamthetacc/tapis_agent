@@ -1,0 +1,114 @@
+[
+    {
+        "input": "What is the primary purpose of the Tapis Systems service?",
+        "output": "The Tapis Systems service primarily provides a way to manage and interact with various computational resources in a grid environment. It facilitates the creation, management, and monitoring of systems, allowing users to efficiently utilize high-performance computing and cloud resources. The service supports job submission, execution, and retrieval of results, as well as managing system configurations and access controls. ",
+        "reference": "Primary purpose of Tapis Systems service is storing and retrieving files and data, and running jobs ",
+        "question_type": "conceptual",
+        "bleu": 0.019256112630012104,
+        "rouge-1": 0.16129031908428726,
+        "rouge-l": 0.12903225456815828,
+        "correctness_execution_details": {
+            "status": "COMPLETED",
+            "exceptions": [],
+            "execution_seconds": 5.091256856918335
+        },
+        "correctness_score": {
+            "name": "correctness",
+            "score": 1.0,
+            "label": "correct",
+            "explanation": "The output correctly describes the primary purpose of the Tapis Systems service, which is to manage and interact with computational resources, including job submission and monitoring in a grid environment. It accurately mentions the aspects of managing system configurations and access controls. There are no factual errors, logical inconsistencies, or misleading statements present.",
+            "metadata": {
+                "model": "gpt-4o-mini",
+                "trace_id": "3701e533c21a4da6a1c74775a7bed7e4"
+            },
+            "kind": "llm",
+            "direction": "maximize"
+        },
+        "manual_llm_score": 3,
+        "manual_llm_explanation": "Score: 3  \nExplanation: The predicted answer provides a broader overview of the Tapis Systems service, focusing on managing computational resources and job execution. However, it does not directly address the primary purpose of storing and retrieving files and data, which is highlighted in the reference answer. While it captures some relevant aspects, it lacks specificity regarding the core functions of the service, leading to a moderate score."
+    },
+    {
+        "input": "In Tapis, what does a system represent?",
+        "output": "In Tapis, a system represents a specific set of resources and capabilities that facilitate the execution of tasks, workflows, or applications. It typically includes computational resources, storage options, and network access, and it can be configured to connect with various endpoints, data sources, or external services. Systems in Tapis allow users to manage and execute jobs, access data, and utilize computational power effectively. Each system is characterized by its system type, such as compute resources, data storage, or workflow orchestration.",
+        "reference": "A Tapis System is an abstraction of a host or cluster identified by name or IP address.",
+        "question_type": "conceptual",
+        "bleu": 0.003685096868640032,
+        "rouge-1": 0.1463414602736467,
+        "rouge-l": 0.1219512163712077,
+        "correctness_execution_details": {
+            "status": "COMPLETED",
+            "exceptions": [],
+            "execution_seconds": 1.4254660606384277
+        },
+        "correctness_score": {
+            "name": "correctness",
+            "score": 1.0,
+            "label": "correct",
+            "explanation": "The output accurately describes what a system represents in Tapis by detailing the resources and capabilities it encompasses. It addresses the components involved, such as computational resources, storage, and network access, and explains the role of systems in managing and executing tasks. Additionally, it mentions the system type, reinforcing the completeness of the answer. No factual errors or ambiguities are present.",
+            "metadata": {
+                "model": "gpt-4o-mini",
+                "trace_id": "db834202ec09f24e818e4a0e41e623ad"
+            },
+            "kind": "llm",
+            "direction": "maximize"
+        },
+        "manual_llm_score": 3,
+        "manual_llm_explanation": "Score: 3  \nExplanation: The predicted answer provides a detailed description of what a system represents in Tapis, including its resources and capabilities. However, it lacks the specific mention of the abstraction aspect and the identification by name or IP address, which is a key point in the reference answer. Therefore, while it captures the essence of a system, it does not fully align with the reference."
+    },
+    {
+        "input": "Can a Tapis system be used for both storage and execution?",
+        "output": "Yes, a Tapis system can be used for both storage and execution. Tapis provides capabilities to manage and run applications while also enabling the storage and retrieval of data. It allows users to execute computational tasks on remote resources and manage datasets effectively within the Tapis platform. If you have specific questions about setting this up, feel free to ask!",
+        "reference": "Yes, a Tapis system can be used for both storage and execution",
+        "question_type": "yes/no",
+        "bleu": 0.16128900679987768,
+        "rouge-1": 0.38709677107180024,
+        "rouge-l": 0.38709677107180024,
+        "correctness_execution_details": {
+            "status": "COMPLETED",
+            "exceptions": [],
+            "execution_seconds": 1.5329108238220215
+        },
+        "correctness_score": {
+            "name": "correctness",
+            "score": 1.0,
+            "label": "correct",
+            "explanation": "The output is correct because it accurately describes the capabilities of a Tapis system, stating that it can handle both storage and execution of tasks. It explains that Tapis allows for the management and execution of applications and retrieval of data, which aligns with the known functionalities of Tapis. Additionally, there are no factual errors, ambiguities, or incomplete answers present in the response.",
+            "metadata": {
+                "model": "gpt-4o-mini",
+                "trace_id": "0c59082dde8d85a558d8cb92ec7b9646"
+            },
+            "kind": "llm",
+            "direction": "maximize"
+        },
+        "manual_llm_score": 5,
+        "manual_llm_explanation": "Score: 5  \nExplanation: The predicted answer directly addresses the question by confirming that a Tapis system can be used for both storage and execution. It also provides additional context about the capabilities of Tapis, enhancing the response without deviating from the main point. This makes it comprehensive and informative, aligning well with the reference answer."
+    },
+    {
+        "input": "What are the four system types supported by Tapis?",
+        "output": "Tapis supports four system types:\n\n1. **Compute Systems** - These are systems that provide computational resources for running jobs or applications.\n2. **Storage Systems** - These systems handle data storage, providing capabilities to store and retrieve files.\n3. **Data Systems** - These are used to manage datasets, enabling users to interact with and manage large volumes of data.\n4. **Other Resource Systems** - This category can include various other types of resources that fall outside the primary classifications, catering to specific user needs or configurations. \n\nIf you need more detailed information about each system type, please let me know!",
+        "reference": "LINUX, S3, IRODS or GLOBUS",
+        "question_type": "conceptual",
+        "bleu": 0.001823996247835891,
+        "rouge-1": 0.024096384409928923,
+        "rouge-l": 0.024096384409928923,
+        "correctness_execution_details": {
+            "status": "COMPLETED",
+            "exceptions": [],
+            "execution_seconds": 1.3322923183441162
+        },
+        "correctness_score": {
+            "name": "correctness",
+            "score": 1.0,
+            "label": "correct",
+            "explanation": "The output accurately identifies the four system types supported by Tapis without any factual errors. Each type is clearly defined, and the categorization is consistent with known information about Tapis. There are no ambiguities or logical inconsistencies, and appropriate terminology is used throughout the response. Therefore, it meets the criteria for correctness.",
+            "metadata": {
+                "model": "gpt-4o-mini",
+                "trace_id": "6e230ac57837920e945ab3808e000723"
+            },
+            "kind": "llm",
+            "direction": "maximize"
+        },
+        "manual_llm_score": 2,
+        "manual_llm_explanation": "Score: 2  \nExplanation: The predicted answer provides a general overview of system types but does not accurately reflect the specific types supported by Tapis, which are LINUX, S3, IRODS, and GLOBUS. The reference answer is more precise and directly answers the question, while the predicted answer lacks the necessary specificity and relevance."
+    }
+]

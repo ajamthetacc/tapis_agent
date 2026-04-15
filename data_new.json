@@ -1,0 +1,30 @@
+[{
+    "type": "Conceptual",
+    "question": "What is the primary purpose of the Tapis Systems service?",
+    "answer": "It manages and defines remote storage and execution resources for use by other Tapis services.",
+    "reference": "Primary purpose of Tapis Systems service is storing and retrieving files and data, and running jobs ",
+    "service": "systems"
+},
+{
+    "type": "Conceptual",
+    "question": "In Tapis, what does a system represent?",
+    "answer": "A system represents a server or collection of servers exposed through a single hostname or IP address for storage or compute use.",
+    "reference": "A Tapis System is an abstraction of a host or cluster identified by name or IP address.",
+    "service": "systems"
+},
+{
+    "type": "Yes/No",
+    "question": "Can a Tapis system be used for both storage and execution?",
+    "answer": "Yes, a system can be defined to support both storage and execution.",
+    "reference": "Yes, a Tapis system can be used for both storage and execution",
+    "service": "systems"
+},
+{
+    "type": "Conceptual",
+    "question": "What are the four system types supported by Tapis?",
+    "answer": "LINUX, S3, IRODS, and GLOBUS.",
+    "reference": "LINUX, S3, IRODS or GLOBUS",
+    "service": "systems"
+}
+
+]
