@@ -118,21 +118,21 @@ use this config for openai
     "source_rag":{"type":"pdf",
                   "conf":{
                             "llmsherpa_api_url": LLMSHERPA_API_URL,
-                            #"pdf_file": "/Users/spadhy/git-repos/documentation/source/technical/tapis2pdf_SHORT.pdf"
-                            "pdf_file":  "/Users/spadhy/git-repos/documentation/source/technical/tapis2pdf_FULL.pdf"
+                            #"pdf_file": "/Users//git-repos/documentation/source/technical/tapis2pdf_SHORT.pdf"
+                            "pdf_file":  "/Users//git-repos/documentation/source/technical/tapis2pdf_FULL.pdf"
                   }},
    
    "vector_index_on_node":"Chunk",
    "vector_index_name":"chunkVectorIndex",
-    "benchmark_qa_input_to_rag": "/Users/spadhy/git-repos/graphci4ai/data/tapis_benchmark.json",
-    "rag_llm_generated_output_to_input_benchmark_eval":"/Users/spadhy/git-repos/graphci4ai/data/rag_llm_generated_output.json",
+    "benchmark_qa_input_to_rag": "/Users//git-repos/graphci4ai/data/tapis_benchmark.json",
+    "rag_llm_generated_output_to_input_benchmark_eval":"/Users//git-repos/graphci4ai/data/rag_llm_generated_output.json",
     "benchmark": {
     "use_ollama": True,
     "use_llm_judge": True,
     "model_name_ollama": "llama3.1:8b",
     "model_name_openai": "gpt-4o",
-    "qa_sets_path": "/Users/spadhy/git-repos/graphci4ai/data/rag_llm_generated_output.json",
-    "eval_output": "/Users/spadhy/git-repos/graphci4ai/data/outputs/qa_eval_results_of_rag_output.csv",
+    "qa_sets_path": "/Users//git-repos/graphci4ai/data/rag_llm_generated_output.json",
+    "eval_output": "/Users//git-repos/graphci4ai/data/outputs/qa_eval_results_of_rag_output.csv",
     }
 }
 
