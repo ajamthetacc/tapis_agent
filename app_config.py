@@ -50,7 +50,7 @@ config = {
     # For Tejas/SambaNova ---
     "llm_provider": "samba_nova",
     "llm_name": "Meta-Llama-3.1-405B-Instruct",
-    "llm_base_url": "https://tejas.tacc.utexas.edu/v1/c31853e6-0a58-4483-9e92-e7c32b021d44",
+    "llm_base_url": "",
     "samba_nova_api_key": "",
     "embedding": {
         # "model": "E5-Mistral-7B-Instruct",
